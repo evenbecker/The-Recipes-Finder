@@ -1,6 +1,6 @@
 <div class="container">
   <div class="card card-body blur shadow-blur mx-4 overflow-hidden mt-8">
-    <h5 class="mb-4">Discover thousands of recipes from all around te world!</h5>
+    <h5 class="mb-4">Discover thousands of recipes from all around the world!</h5>
     <div class="form-group">
       <form (ngSubmit)="getRecipe()">
         <div class="row">
@@ -9,7 +9,7 @@
               <input
                 type="text"
                 class="form-control"
-                placeholder="Eg. Bread"
+                placeholder="Eg. noodle"
                 name="searchQuery"
                 [(ngModel)]="searchQuery"
               />
@@ -73,6 +73,11 @@
       </div>
 
       <ng-template #noData> </ng-template>
+      <div class="text-center pt-5" *ngIf="!progressBar">
+        <h6 class="text-primary text-gradient">
+          Warning: The number of daily search is limited by the spoonacular API free plan.
+        </h6>
+      </div>
     </div>
   </div>
 </div>
