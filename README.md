@@ -11,3 +11,7 @@
 ## Features
 
 - pagination through asynchronous programmming
+
+## Author
+
+Even Becker, software developer.
