@@ -25,9 +25,10 @@ import { IngredientsComponent } from './ingredients/ingredients.component';
 import { IngredientdetailsComponent } from './ingredients/ingredientdetails/ingredientdetails.component';
 import { IngredientresultsComponent } from './ingredients/ingredientresults/ingredientresults.component';
 import { AllingredientresultsComponent } from './ingredients/allingredientresults/allingredientresults.component';
+import { Header } from './header/header';
 
 @NgModule({
-  declarations: [App, FooterComponent, PagenotfoundComponent, HomeComponent],
+  declarations: [App, FooterComponent, PagenotfoundComponent, HomeComponent, Header],
   imports: [
     BrowserModule,
     AppRoutingModule,
