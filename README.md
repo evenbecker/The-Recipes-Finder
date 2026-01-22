@@ -5,8 +5,8 @@
 - Angular 21.
 - Sass.
 - Bootstrap 5.
-- Soft UI Dashboard
-- [spoonacular API](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard) as backend.
+- [Soft UI Dashboard](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard)
+- [spoonacular API](https://spoonacular.com/food-api) as backend.
 
 ## Features
 
