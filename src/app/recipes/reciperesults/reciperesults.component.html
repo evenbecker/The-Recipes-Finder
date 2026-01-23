@@ -1,7 +1,7 @@
 <div class="card mb-2 mt-3">
   <img src="{{ searchResult.image }}" alt="{{ searchResult.title }}" class="card-img-top" />
 
-  <div class="card-body">
+  <div class="card-body even-h">
     <a
       data-bs-toggle="tooltip"
       data-bs-placement="top"
@@ -16,9 +16,10 @@
         }}
       </p>
     </a>
-
-    <a (click)="goToRecipeDetails(searchResult.id)" class="btn btn-sm btn-outline-primary mt-3"
-      >View Recipe</a
-    >
+  </div>
+  <div class="mx-auto">
+    <a (click)="goToRecipeDetails(searchResult.id)" class="btn btn-sm btn-outline-primary mt-1 px-3"
+      >View Recipe
+    </a>
   </div>
 </div>
